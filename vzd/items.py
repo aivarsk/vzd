@@ -6,6 +6,15 @@
 from scrapy.item import Item, Field
 
 class VzdItem(Item):
-    # define the fields for your item here like:
-    # name = Field()
-    pass
+    url = Field()
+    city = Field()
+    district = Field()
+    street = Field()
+    village = Field()
+    space = Field()
+    n_floors = Field()
+    n_rooms = Field()
+    land_area = Field()
+    price = Field()
+    note = Field()
+    images = Field()
